@@ -45,3 +45,13 @@ Results are saved in the `experiments/` folder:
 - CR over seeds plot
 - baseline vs DN scatter plot
 - pulse plots
+
+  ---
+
+## Intellectual Property
+
+The ΔN–ΔD model and the Delta Engine architecture presented in this repository are original works by Zhengis Tileubay.
+
+© 2026 Zhengis Tileubay. All rights reserved.
+
+For licensing or collaboration inquiries, please contact the author.
