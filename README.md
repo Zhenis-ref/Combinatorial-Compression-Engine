@@ -20,7 +20,9 @@ This means DN reduces the number of explored nodes by approximately 8× on avera
 
 ## Architecture
 
-Law (ΔN–ΔD) → DeltaEngine → Backends
+ΔN–ΔD Dynamic Model → DeltaEngine → Backends
+ΔN–ΔD is a formal dynamic framework describing structural evolution 
+through two orthogonal parameters: nonequilibrium (ΔN) and duality (ΔD).
 
 - `core/` — ΔN–ΔD engine implementation
 - `backends/` — stress-test and decoding demo
@@ -29,6 +31,18 @@ Law (ΔN–ΔD) → DeltaEngine → Backends
 - `docs/` — model formalization
 
 ---
+
+## Mathematical Core
+
+The structural dynamics implemented in this repository are based on the following equation:
+
+dS/dt = α(ΔN, ΔD) · ΔN + β · ΔD
+
+where:
+- ΔN — nonequilibrium (external gradient),
+- ΔD — structural duality (internal divergence),
+- α(ΔN, ΔD) — nonlinear system response,
+- β — structural contribution coefficient.
 
 ## Quick Start
 
