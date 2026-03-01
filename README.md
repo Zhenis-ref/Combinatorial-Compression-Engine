@@ -66,6 +66,7 @@ Results are saved in the `experiments/` folder:
 
 The ΔN–ΔD model and the Delta Engine architecture presented in this repository are original works by Zhengis Tileubay.
 
-© 2026 Zhengis Tileubay. All rights reserved.
+© 2026 Zhengis Tileubay. Licensed for research and non-commercial use.
+Commercial licensing available upon request.
 
 For licensing or collaboration inquiries, please contact the author.
