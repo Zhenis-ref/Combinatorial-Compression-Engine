@@ -1,6 +1,6 @@
-# CCE / ΔN–ΔD Engine
+# CCE (Combinatorial Compression Engine)
 
-A delta-controlled search mechanism that reduces combinatorial explosion.
+An open search-regulation mechanism based on the ΔN–ΔD model that reduces combinatorial explosion.
 
 ## Main Result (Search Stress-Test, 30 seeds: 1–30)
 
@@ -14,17 +14,17 @@ Results:
 - Min CR = 5.431×
 - Max CR = 11.308×
 
-This means DN reduces the number of explored nodes by approximately 8× on average compared to the baseline.
+This means CCE, driven by the ΔN–ΔD control model, reduces the number of explored nodes by approximately 8× on average compared to the baseline.
 
 ---
 
 ## Architecture
 
-ΔN–ΔD Dynamic Model → DeltaEngine → Backends
+ΔN–ΔD model → CCE regulator → Backends
 ΔN–ΔD is a formal dynamic framework describing structural evolution 
 through two orthogonal parameters: nonequilibrium (ΔN) and duality (ΔD).
 
-- `core/` — ΔN–ΔD engine implementation
+- `core/` — CCE core implementation
 - `backends/` — stress-test and decoding demo
 - `visualizer/` — pulse plots (ΔN, ΔD over time)
 - `experiments/` — generated CSV and PNG results
@@ -64,7 +64,7 @@ Results are saved in the `experiments/` folder:
 
 ## Intellectual Property
 
-The ΔN–ΔD model and the Delta Engine architecture presented in this repository are original works by Zhengis Tileubay.
+The ΔN–ΔD model and the CCE architecture presented in this repository are original works by Zhengis Tileubay.
 
 © 2026 Zhengis Tileubay. Licensed for research and non-commercial use.
 Commercial licensing available upon request.
