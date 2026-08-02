@@ -62,11 +62,9 @@ Results are saved in the `experiments/` folder:
 
   ---
 
-## Intellectual Property
+## Intellectual Property & Patent Notice
 
-The ΔN–ΔD model and the CCE architecture presented in this repository are original works by Zhengis Tileubay.
-
-© 2026 Zhengis Tileubay. Licensed for research and non-commercial use.
-Commercial licensing available upon request.
-
-For licensing or collaboration inquiries, please contact the author.
+The ΔN–ΔD theoretical framework and the CCE architecture presented in this repository are original works by Zhengis Tileubay and are covered by an international patent application:
+* **Patent Application:** International Patent Publication **[WO/2026/155638](https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2026155638)** (*Method for Controlling the Dynamics of a Complex System*, PCT/KZ2026/000001).
+© 2026 Zhengis Tileubay. Source code and documentation are licensed for **research and non-commercial use only**. 
+Commercial licensing or technology transfer agreements are available upon request. For licensing, partnership, or collaboration inquiries, please contact the author.
